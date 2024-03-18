@@ -15,6 +15,15 @@ body {
     background-color: #0a201c;
 }
 
+.coli {
+    background-color: #d5f2e7;
+}
+
+.coli1 {
+    background-color: #33997e;
+}
+
+
 /* Cambia el color de la barra de desplazamiento */
 ::-webkit-scrollbar-thumb {
     background-color: #464646;

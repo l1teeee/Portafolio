@@ -36,6 +36,8 @@ window.addEventListener('scroll', function () {
     escalarEnPantalla('miDiv3', 'scale-110');
     escalarEnPantalla('miDiv4', 'scale-110');
     escalarEnPantalla('miDiv5', 'scale-110');
+    escalarEnPantalla('miDiv6', 'scale-110');
+
 });
 
 escalarEnPantalla('miDiv1', 'scale-110');
@@ -43,4 +45,6 @@ escalarEnPantalla('miDiv2', 'scale-110');
 escalarEnPantalla('miDiv3', 'scale-110');
 escalarEnPantalla('miDiv4', 'scale-110');
 escalarEnPantalla('miDiv5', 'scale-110');
+escalarEnPantalla('miDiv6', 'scale-110');
+
 
