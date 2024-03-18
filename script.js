@@ -37,6 +37,9 @@ window.addEventListener('scroll', function () {
     escalarEnPantalla('miDiv4', 'scale-110');
     escalarEnPantalla('miDiv5', 'scale-110');
     escalarEnPantalla('miDiv6', 'scale-110');
+    escalarEnPantalla('miDiv7', 'scale-110');
+    escalarEnPantalla('miDiv8', 'scale-110');
+
 
 });
 
@@ -46,5 +49,7 @@ escalarEnPantalla('miDiv3', 'scale-110');
 escalarEnPantalla('miDiv4', 'scale-110');
 escalarEnPantalla('miDiv5', 'scale-110');
 escalarEnPantalla('miDiv6', 'scale-110');
+escalarEnPantalla('miDiv7', 'scale-110');
+escalarEnPantalla('miDiv8', 'scale-110');
 
 
