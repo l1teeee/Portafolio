@@ -30,7 +30,7 @@
         <div class="relative w-full h-screen">
             <video id="portada" muted autoplay loop
                 class="absolute md:p-4 ms:p-0 md:rounded-3xl ms:rounded-lg inset-0 w-full h-full object-cover  "
-                src="fondiHD.webm"></video>
+                src="img/fondiHD.webm"></video>
             <div class="absolute inset-0 flex flex-col items-center justify-center">
                 <h1
                     class="text-white md:text-8xl sm:text-6xl text-4xl antialiased font-sans  font-bold mix-blend-difference">
@@ -91,23 +91,32 @@
         </div>
     </section>
     <section class="mt-10 bg-gray-100">
-        <div class="flex lg:flex-row flex-col gap-5 p-10 justify-center">
-            <div class="border rounded-3xl border-2 border-green-800">
-                <div class="p-10">
-                    <h1>div1</h1>
-                </div>
-                <div class="h-2/3">
-                    <img class=" h-5/6 md:max-w-md min-w-xs inset-0 w-full h-full object-cover rounded-b-2xl"
-                        src="boat.jpg" alt="image description">
-                </div>
+        <h1
+            class="md:text-4xl sm:text-2xl text-xl antialiased font-sans font-bold text-green-900 flex justify-center pt-10">
+            Proyectos Realizados
+        </h1>
+        <div class="flex lg:flex-row flex-col gap-20 p-10 justify-center items-center">
+            <div class="transform transition duration-500" id="proyect1">
+                <figure class="relative max-w-sm ">
+                    <a href="https://l1teeee.github.io/El_Respectivo/index.html" target="blank">
+                        <img class="rounded-lg" src="img/respectivo.jpg" alt="">
+                    </a>
+                    <figcaption class="absolute px-4 text-lg text-white font-semibold bottom-6">
+                        <p>Respectivo</p>
+                        <p>Rebranding</p>
+                    </figcaption>
+                </figure>
             </div>
-            <div class="border rounded-3xl border-2 border-gray-400  basis-2/3">
-                <div class="p-10">
-                    <h1>div1</h1>
-                </div>
-                <div class="h-full">
-                    <img class=" md:max-w-full  rounded-b-2xl" src="boat1.jpg" alt="image description">
-                </div>
+            <div class="transform transition duration-500" id="proyect2">
+                <figure class="relative max-w-sm">
+                    <a href="#">
+                        <img class="rounded-lg" src="img/petscare.jpg" alt="">
+                    </a>
+                    <figcaption class="text-black absolute px-4 text-lg font-semibold bottom-6">
+                        <p>Petscare</p>
+                        <p>Gestor de Veterinaria Online</p>
+                    </figcaption>
+                </figure>
             </div>
         </div>
     </section>
